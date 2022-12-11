@@ -1,0 +1,237 @@
+.mainContent {
+    width: 280px;
+    height: 990px;
+    background-color: #fff;
+}
+
+.mainContent__vertical {
+    display: none;
+}
+
+.mainContent__verticalTitle {
+    display: none;
+}
+
+.mainContent__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: 45px;
+    font-size: 14px;
+}
+
+.mainContent__Block {
+    width: inherit;
+    height: 105px;
+}
+
+.mainContent__Group {
+    width: inherit;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+}
+
+.mainContent__Group:hover {
+    background-color: #fff;
+}
+
+.mainContent__link {
+    cursor: pointer;
+    width: inherit;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    transition: all 0.3s;
+}
+
+.mainContent__link:hover {
+    background-color: #FFD600;
+}
+
+
+@media(min-width: 430px) {
+    .mainContent {
+        width: 380px;
+        height: 1260px;
+    }
+
+    .mainContent__title {
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .mainContent__Block {
+        height: 135px;
+    }
+
+    .mainContent__Group {
+        height: 120px;
+    }
+
+    .mainContent__link {
+        font-size: 12px;
+    }
+}
+
+@media(min-width: 744px) {
+    .mainContent {
+        display: none;
+    }
+
+    .mainContent__verticalTitle {
+        width: inherit;
+        height: 50px;
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .mainContent__vertical {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 744px;
+        height: 930px;
+    }
+
+    .mainContent__verticalBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 626px;
+        height: 804px;
+    }
+
+    .mainContent__verticalRow {
+        width: inherit;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mainContent__verticalContainer {
+        width: 190px;
+        height: inherit;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        background-color: #242728;
+        transition: all 0.1s;
+    }
+
+    .mainContent__verticalContainer:hover {
+        box-shadow: 0 0 10px 0;
+    }
+}
+
+@media(min-width: 1280px) {
+    .mainContent {
+        display: none;
+    }
+    .mainContent__verticalTitle {
+        width: inherit;
+        height: 86px;
+        font-size: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .mainContent__vertical {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1280px;
+        height: 1038px;
+    }
+
+    .mainContent__verticalBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 900px;
+        height: 908px;
+    }
+
+    .mainContent__verticalRow {
+        width: inherit;
+        height: 290px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mainContent__verticalContainer {
+        width: 290px;
+        height: inherit;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        background-color: #242728;
+        transition: all 0.1s;
+    }
+
+    .mainContent__verticalContainer:hover{
+        box-shadow: 0 0 10px 0;
+    }
+}
+
+@media(min-width: 1920px) {
+    .mainContent {
+        display: none;
+    }
+    .mainContent__verticalTitle {
+        width: inherit;
+        height: 122px;
+        font-size: 56px;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .mainContent__vertical {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 162px;
+        height: 1630px;
+    }
+
+    .mainContent__verticalBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 1441px;
+        height: 1441px;
+    }
+
+    .mainContent__verticalRow {
+        width: inherit;
+        height: 435px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mainContent__verticalContainer {
+        width: 435px;
+        height: inherit;
+        border-radius: 40px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        background-color: #242728;
+        transition: all 0.1s;
+    }
+
+    .mainContent__verticalContainer:hover{
+        box-shadow: 0 0 10px 0;
+    }
+}

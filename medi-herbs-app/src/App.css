@@ -1,0 +1,81 @@
+::-webkit-scrollbar {
+  width: 5px; /* ширина для вертикального скролла */
+  height: 0px; /* высота для горизонтального скролла */
+  background-color: #000;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+  background-color: #1E8C2F;
+  border-radius: 9em;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+ul, li {
+  list-style-type: none;
+  cursor: pointer;
+}
+input{
+  text-align: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  position: relative;
+  width: 100vw;
+  height: 1227px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  text-align: center;
+}
+
+@media(min-width: 430px) {
+  ::-webkit-scrollbar {
+    width: 8px; /* ширина для вертикального скролла */
+    height: 0px; /* высота для горизонтального скролла */
+    background-color: #000;
+  }
+  
+  /* ползунок скроллбара */
+  ::-webkit-scrollbar-thumb {
+    background-color: #1E8C2F;
+    border-radius: 9em;
+  }
+  .App{
+    height: 1595px;
+  }
+}
+@media(min-width: 744px) {
+  .App{
+    height: 1525px;
+  }
+}
+@media(min-width: 1280px) {
+  .App{
+    height: 1900px;
+  }
+}
+@media(min-width: 1920px) {
+  .App{
+    height: 2986px;
+  }
+}

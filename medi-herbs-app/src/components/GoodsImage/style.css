@@ -1,0 +1,42 @@
+.goodsImage{
+    width: 120px;
+    height: inherit;
+    opacity: 0.9;
+}
+
+@media(min-width: 430px) {
+    .goodsImage{
+        width: 165px;
+    }
+}
+
+@media(min-width: 744px) {
+    .goodsImage{
+        width: 190px;
+        height: 120px;
+    }
+    .goodsImage img{
+        border-radius: 10px 10px 0 0;
+    }
+} 
+
+@media(min-width: 1280px) {
+    .goodsImage{
+        width: 290px;
+        height: 140px;
+    }
+    .goodsImage img{
+        border-radius: 20px 20px 0 0;
+    }
+} 
+
+@media(min-width: 1920px) {
+    .goodsImage{
+        width: 435px;
+        height: 208px;  
+    }
+    .goodsImage img{
+        border-radius: 40px 40px 0 0;
+    }
+} 
+

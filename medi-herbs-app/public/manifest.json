@@ -1,0 +1,25 @@
+{
+  "short_name": "Mediherbs",
+  "name": "Medicinal herbs of Kyrgyzstan app",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo160x145.png",
+      "type": "image/png",
+      "sizes": "160x145"
+    },
+    {
+      "src": "logo400x365.png",
+      "type": "image/png",
+      "sizes": "400x365"
+    }
+  ],
+  "start_url": "mediherbs",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
