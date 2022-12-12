@@ -1,7 +1,5 @@
-.mainPage{
-    height: inherit;
-    width: inherit;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
+/* @compress-my-css */
+
+/* @compress-my-css:minified */.mainPage { height:inherit; width:inherit; display:flex; flex-direction:column; align-items:center; }
+
+/* @end-compress-my-css */

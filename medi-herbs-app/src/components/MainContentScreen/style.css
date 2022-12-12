@@ -1,18 +1,7 @@
-.mainContentScreen{
-    display: none;
-}
+/* @compress-my-css */
 
-@media(min-width: 744px){
-    .mainContentScreen__Block {
-        width: 190px;
-        height: 1038px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #FFD600;
-    }
-    .mainContent__title {
-        height: 45px;
-        font-size: 16px;
-    }
-}
+/* @compress-my-css:minified */.mainContentScreen { display:none; }
+@media(min-width:744px) { .mainContentScreen__Block { width:190px; height:1038px; display:flex; flex-direction:column; align-items:center; background-color:#FFD600; }
+    .mainContent__title { height:45px; font-size:16px; } }
+
+/* @end-compress-my-css */

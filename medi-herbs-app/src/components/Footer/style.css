@@ -1,150 +1,35 @@
-.footer {
-    position: relative;
-    bottom: 0;
-    width: 100vw;
-    height: 87px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #000;
-    color: #fff;
-}
+/* @compress-my-css */
 
-.footerBlock {
-    width: 280px;
-    height: 60px;
-    font-size: 12px;
-    display: flex;
-    flex-direction: column;
-}
+/* @compress-my-css:minified */.footer { position:relative; bottom:0; width:100vw; height:87px; display:flex; align-items:center; justify-content:center; background-color:#000; color:#fff; }
+.footerBlock { width:280px; height:60px; font-size:12px; display:flex; flex-direction:column; }
+.footerBlock__address { height:12px; display:flex; justify-content:center; flex-direction:row; width:inherit; }
+.address { width:10%; }
+.addressPoint { text-align:end; width:90%; }
+.footerBlock__contacts { height:15px; display:flex; flex-direction:row; width:inherit; }
+.contacts { width:20%; }
+.contactsTelephon { text-align:end; width:80%; }
+.footerBlock__socialMediaLinks { width:inherit; height:10px; font-size:10px; }
+.footerBlock__socialMediaLinks ul { display:flex; justify-content:center; flex-direction:row; }
+.footerBlock__socialMediaLinks ul li { padding:4%; }
+.footerBlock__socialMediaLinks ul li a:hover { color:#FFD600; }
+@media(min-width:430px) { .footer { height:100px; }
+    .footerBlock { width:380px; font-size:14px; }
+    .footerBlock__address { height:18px; }
+    .footerBlock__contacts { height:15px; }
+    .footerBlock__socialMediaLinks { font-size:12px; height:14px; } }
+@media(min-width:744px) { .footer { height:160px; }
+    .footerBlock { width:626px; font-size:20px; }
+    .footerBlock__address { height:28px; }
+    .footerBlock__contacts { height:28px; }
+    .contacts { width:10%; }
+        .contactsTelephon { text-align:end; width:90%; }
+        .footerBlock__socialMediaLinks { font-size:16px; height:22px; } }
+@media(min-width:1280px) { .footer { height:160px; }
+    .footerBlock { width:898px; font-size:20px; } }
+@media(min-width:1920px) { .footer { height:385px; }
+    .footerBlock { width:1441px; font-size:34px; }
+    .footerBlock__address { height:48px; }
+    .footerBlock__contacts { height:48px; }
+    .footerBlock__socialMediaLinks { font-size:30px; height:40px; } }
 
-.footerBlock__address {
-    height: 12px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: inherit;
-}
-
-.address {
-    width: 10%;
-}
-
-.addressPoint {
-    text-align: end;
-    width: 90%;
-}
-
-.footerBlock__contacts {
-    height: 15px;
-    display: flex;
-    flex-direction: row;
-    width: inherit;
-}
-
-.contacts {
-    width: 20%;
-}
-
-.contactsTelephon {
-    text-align: end;
-    width: 80%;
-}
-
-.footerBlock__socialMediaLinks {
-    width: inherit;
-    height: 10px;
-    font-size: 10px;
-}
-
-.footerBlock__socialMediaLinks ul {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.footerBlock__socialMediaLinks ul li {
-    padding: 4%;
-}
-
-.footerBlock__socialMediaLinks ul li a:hover {
-    color: #FFD600;
-}
-
-@media(min-width: 430px) {
-    .footer {
-        height: 100px;
-    }
-    .footerBlock {
-        width: 380px;
-        font-size: 14px;
-    }
-    .footerBlock__address {
-        height: 18px;
-    }
-    .footerBlock__contacts {
-        height: 15px;
-    }
-    .footerBlock__socialMediaLinks {
-        font-size: 12px;
-        height: 14px;
-    }
-}
-@media(min-width: 744px) {
-    .footer {
-        height: 160px;
-    }
-    .footerBlock {
-        width: 626px;
-        font-size: 20px;
-    }
-    .footerBlock__address {
-        height: 28px;
-    }
-    .footerBlock__contacts {
-        height: 28px;
-    }
-    .contacts {
-        width: 10%;
-    }
-    
-    .contactsTelephon {
-        text-align: end;
-        width: 90%;
-    }
-    
-    .footerBlock__socialMediaLinks {
-        font-size: 16px;
-        height: 22px;
-    }
-}
-
-@media(min-width: 1280px) {
-    .footer {
-        height: 160px;
-    }
-    .footerBlock {
-        width: 898px;
-        font-size: 20px;
-    }
-}
-
-@media(min-width: 1920px) {
-    .footer {
-        height: 385px;
-    }
-    .footerBlock {
-        width: 1441px;
-        font-size: 34px;
-    }
-    .footerBlock__address {
-        height: 48px;
-    }
-    .footerBlock__contacts {
-        height: 48px;
-    }
-    .footerBlock__socialMediaLinks {
-        font-size: 30px;
-        height: 40px;
-    }
-}
+/* @end-compress-my-css */
