@@ -143,7 +143,7 @@ const MainContent = () => {
                         <GoodsImage img={require("../../img/object9.jpg")} />
                         <GoodsContent title="Душица" text="+польза: при спазмах желудка, атонии кишечника, нервных расстройствах" />
                     </div>
-                    <NavLink to="/object9"></NavLink><div className="mainContent__link">подробнее...</div>
+                    <NavLink to="/object9"><div className="mainContent__link">подробнее...</div></NavLink>
                 </div>
             </main>
         </>

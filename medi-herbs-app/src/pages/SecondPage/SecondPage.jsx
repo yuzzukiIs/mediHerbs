@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 
 import logo from '../../logo.svg';
 import './style.css';
@@ -18,9 +20,11 @@ const SecondPage = (props) => {
                         <input className="" type="text" placeholder="поиск" />
                     </div>
                     <div className="headerBox__about">
-                        <div className="header__about__text">
-                            заказать
-                        </div>
+                        <NavLink to="/orderGoods">
+                            <div className="header__about__text">
+                                заказать
+                            </div>
+                        </NavLink>
                     </div>
                 </div>
             </header>
@@ -38,11 +42,11 @@ const SecondPage = (props) => {
                         {props.title}
                     </div>
                     <div className="secondPageContent__block__text">
-                        {props.text1}<br/>
-                        {props.text2}<br/>
-                        {props.text3}<br/>
-                        {props.text4}<br/>
-                        {props.text5}<br/>
+                        {props.text1}<br />
+                        {props.text2}<br />
+                        {props.text3}<br />
+                        {props.text4}<br />
+                        {props.text5}<br />
                         {props.text6}
                     </div>
                 </div>

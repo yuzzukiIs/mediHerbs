@@ -1,0 +1,76 @@
+.paymentPage{
+    width: inherit;
+    height: 568px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262424;
+}
+.paymentPage__block{
+    width: 283px;
+    height: 208px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.paymentPage__block__container{
+    width: 252px;
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #000;
+}
+.rowBlock{
+    width: inherit;
+    height: 17px;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+.rowBlock-comment{
+    margin-top: 8px;
+    width: inherit;
+    height: 17px;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+.rowBlock-paymentMethod__title{
+    margin-top: 13px;
+    font-size: 8px;
+    font-weight: 500;
+    width: inherit;
+    text-align: start;
+    border: 1px solid #000;
+}
+.rowBlock-paymentMethod{
+    width: inherit;
+    height: 17px;
+    color: #4F4F4F;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+.rowBlock-acceptPolicy{
+    width: inherit;
+    height: 32px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    color: #4F4F4F;
+    border-bottom: 1px solid #B3B3B3;
+}
+.rowBlock-acceptPolicy input{
+    margin-right: 5px;
+}
+.rowBlock-acceptPolicy a{
+    color: #5475B6;
+}
+.rowBlock-paymentButton{
+    width: 251px;
+    height: 30px;
+    margin-top: 26px;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #66946B;
+}

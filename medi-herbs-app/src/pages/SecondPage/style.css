@@ -51,10 +51,10 @@
         width: 430px;
     }
     .secondPageContent__block__title {
-        font-size: 16px;
+        font-size: 14px;
     }
     .secondPageContent__block__text {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
@@ -118,7 +118,7 @@
     .headerBox{
         width: 1441px;
         margin-top: 0;
-        font-size: 64px;
+        font-size: 40px;
     }
     .headerBox__search input {
         height: 75px;
