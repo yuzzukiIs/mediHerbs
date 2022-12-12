@@ -42,6 +42,7 @@
     border-radius: 2px 0 0 2px;
     border: 1px solid #B3B3B3;
     padding: 1px;
+    text-align: left;
 }
 
 .rowBlock-paymentSelect {
@@ -58,6 +59,7 @@
     border-radius: 2px;
     border: 1px solid #B3B3B3;
     padding: 1px;
+    text-align: left;
 }
 
 .rowBlock-comment {
@@ -210,6 +212,7 @@
         width: 184px;
         height: 41px;
         padding: 10px;
+        font-size: 16px;
     }
 
     .rowBlock-paymentSelect {
@@ -222,6 +225,7 @@
         width: 288px;
         height: 41px;
         padding: 10px;
+        font-size: 16px;
     }
 
     .rowBlock-comment {
@@ -278,7 +282,7 @@
     .rowBlock-paymentSum {
         width: 226px;
         height: 58px;
-        padding: 14px;
+        font-size: 24px;
     }
 
     .rowBlock-paymentSelect {
@@ -291,6 +295,7 @@
         width: 358px;
         height: 58px;
         padding: 14px;
+        font-size: 20px;
     }
 
     .rowBlock-comment {

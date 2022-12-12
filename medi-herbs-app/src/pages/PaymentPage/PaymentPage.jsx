@@ -6,9 +6,8 @@ const PaymentPage = () => {
             <div className="paymentPage__block">
                 <div className="paymentPage__block__container">
                     <div className="rowBlock">
-                        <div className="rowBlock-paymentSum">
-                            сумма
-                        </div>
+                        <input className="rowBlock-paymentSum" type="text" placeholder="Сумма">
+                        </input>
                         <select className="rowBlock-paymentSelect">
                             <option>KGS</option>
                             <option>RUB</option>
@@ -16,12 +15,10 @@ const PaymentPage = () => {
                             <option>USD</option>
                             <option>EUR</option>
                         </select>
-                        <div className="rowBlock-paymentEmail">
-                            Email адрес...
-                        </div>
+                        <input className="rowBlock-paymentEmail" type="text" placeholder="Email адрес...">
+                        </input>
                     </div>
                     <input className="rowBlock-comment" type="text" placeholder="Комментарий...">
-                        
                     </input>
                     <div className="rowBlock-paymentMethod__title">
                         Способ оплаты
